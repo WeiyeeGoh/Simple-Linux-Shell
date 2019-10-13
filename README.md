@@ -1,1 +1,2 @@
 # Simple-Linux-Shell
+A simple linux shell that takes in commands and executes them like a linux shell would. Uses the fork and exec strategy to fork a new process and exec the command line inputs. To handle piping output, I used the pipe command to connect two forked process's input and output. 
